@@ -1,22 +1,29 @@
 ---
-product: 4.0.0
+product: "1.0.0"
 info:
-  name: acme-bank
-  title: acme-bank
-  version: 4.0.0 
-apis:
-  acme-bank:
-    $ref: acme-bank.yaml
+  name: "climbing-weather-api-product"
+  title: "Climbing Weather API product"
+  version: "1.0.0"
 visibility:
   view:
-    type: public
+    enabled: true
+    type: "public"
+    tags: []
+    orgs: []
   subscribe:
-    type: authenticated
+    enabled: true
+    type: "authenticated"
+    tags: []
+    orgs: []
+apis:
+  climbing-weather-api:
+    $ref: "climbing-weather-api_1.0.0.yaml"
 plans:
   default:
-    title: Default Plan
-    description: Default Plan
+    title: "Default Plan"
+    description: "Default Plan"
     approval: false
     rate-limit:
-      value: 100/hour
       hard-limit: false
+      value: "100/hour"
+
