@@ -1,9 +1,9 @@
 ---
-product: "2.0.0"
+product: "3.0.0"
 info:
   name: "climbing-weather-api-product"
   title: "Climbing Weather API product"
-  version: "2.0.0"
+  version: "3.0.0"
 visibility:
   view:
     enabled: true
